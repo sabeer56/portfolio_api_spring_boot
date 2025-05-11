@@ -2,7 +2,7 @@
 FROM maven:3.9.6-eclipse-temurin-17 AS builder
 
 WORKDIR /app
-COPY ./PortFolioMailSender /app
+COPY ./portfolio_api_spring_boot /app
 RUN mvn clean package -DskipTests
 
 # Stage 2: Run the app
