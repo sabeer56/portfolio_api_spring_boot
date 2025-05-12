@@ -15,7 +15,7 @@ import MailSender.com.PortFolioMailSenderDto.MailStructure;
 
 @RestController
 @RequestMapping("/mail")
-@CrossOrigin(origins = "https://sabeer56.github.io/dev_sabeer_portfolio/") 
+@CrossOrigin(origins = "https://sabeer56.github.io/") 
 public class MailController {
 
     @Autowired
